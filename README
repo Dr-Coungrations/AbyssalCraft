@@ -1,23 +1,15 @@
-AbyssalCraft
+AbyssalCraft Development .jars
 
-The mod thread can be located at
-http://minecraftforum.net/topic/1582727-/
+If you know how to install compiled jars into your workspace,
+then just select the mod version you want to integrate into your mod.
 
-Copyright 2012-2014 Shinoow
+If you don't know how to, here are some steps that should solve it:
+1. Download the compiled version you want to use for your mod.
+2. create a folder called "libs" in the root directory of
+your workspace (eg if the workspace was named "gradle", the folder would be "gradle/libs")
+3. Drop the dev jar into /libs
+4. Run gradlew eclipse (or idea if you're using that IDE)
+5. The "AbyssalCraft-mcversion-modversion-dev.jar" should now be found under "referenced libraries"
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-
-If you happen to find any code that's not working correctly, report it here. Feel free to contribute to the mod as well.
-
-Also, certain bugs can be reported as well.
+These compiled versions of the mod are to be used if you want to create an Add-on for AbyssalCraft,
+or if you want to use some of it's functions in your own mod.
