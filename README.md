@@ -1,4 +1,6 @@
-AbyssalCraft Development .jars
+## AbyssalCraft Development .jars
+
+###Installation
 
 If you know how to install compiled jars into your workspace,
 then just select the mod version you want to integrate into your mod.
