@@ -13,3 +13,5 @@ If you don't know how to, here are some steps that should solve it:
 5. The "AbyssalCraft-mcversion-modversion-dev.jar" should now be found under "referenced libraries"
 
 These compiled versions of the mod are to be used if you want to create an Add-on for AbyssalCraft, or if you want to use some of it's functions in your own mod.
+
+As of AbyssalCraft 1.7.8, there will be dev jars and src jars for both 1.7.2 and 1.7.10 builds (use the src jar if you want to be able to see the sourcecode in the dev jar)
